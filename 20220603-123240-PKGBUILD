@@ -57,7 +57,7 @@ prepare() {
 	cd $srcdir/$pkgname
 	./autogen.sh
 
-	# 3. predownload tarballs needed from domestic network, otherwise it will download from German...German!!!
+	# 3. predownload tarballs needed from domestic network, otherwise it will download from Germany...Germany!!!
 	wget -r --level=1 -nd -P ./external/tarballs https://go.suokunlong.cn:88/dl/libreoffice/external_tarballs/
 
 }
