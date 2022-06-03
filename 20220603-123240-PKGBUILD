@@ -1,0 +1,97 @@
+
+# current commit: 826b0fc9a
+# 2022-06-02 22:45
+# To run the package after it is istalled,
+# please input "libreoffice-my" in CLI or run from application center.
+
+pkgname=libreoffice-my
+pkgver=7.3.3
+pkgrel=1
+arch=('x86_64')
+license=('LGPL3')
+makedepends=( 'autoconf'  'automake'  'binutils'  'bison' 'fakeroot' \
+		'file'  'findutils'  'flex' 'gawk' 'gcc' 'gettext' 'grep' 'groff' \
+		'gzip' 'libtool' 'm4' 'make' 'pacman' 'patch' 'pkgconf' 'sed' 'sudo' \
+		'texinfo' 'which' \
+		'git' 'ccache' 'ant' 'apr' 'beanshell' 'bluez-libs' 'clucene' \
+		'coin-or-mp' 'cppunit' 'curl' 'dbus-glib' \
+		'desktop-file-utils' 'doxygen' 'flex' 'gcc-libs' \
+		'gdb' 'glm' 'gobject-introspection' 'gperf' 'gpgme' \
+		'graphite' 'gst-plugins-base-libs' 'gtk3' \
+		'harfbuzz-icu' 'hicolor-icon-theme' 'hunspell' \
+		'hyphen' 'icu' 'java-environment' 'junit' \
+		'lcms2' 'libabw' 'libatomic_ops' 'libcdr' 'libcmis' \
+		'libe-book' 'libepoxy' 'libepubgen' 'libetonyek' \
+		'libexttextcat' 'libfreehand' 'libgl' 'libjpeg' \
+		'liblangtag' 'libmspub' 'libmwaw' 'libmythes' \
+		'libnumbertext' 'libodfgen' 'liborcus' 'libpagemaker' \
+		'libqxp' 'libstaroffice' 'libtommath' 'libvisio' \
+		'libwpd' 'libwpg' 'libwps' 'libxinerama' 'libxrandr' \
+		'libxslt' 'libzmf' 'lpsolve' 'mariadb-libs' \
+		'mdds' 'nasm' 'neon' 'nspr' 'nss' 'pango' \
+		'plasma-framework' 'poppler' 'postgresql-libs' \
+		'python' 'qt5-base' 'redland' 'sane' 'serf' 'sh' \
+		'shared-mime-info' 'ttf-liberation' 'unixodbc' \
+		'unzip' 'xmlsec' 'zip')
+depends=('curl>=7.20.0' 'hunspell>=1.2.8' 'python>=3.7' 'libwpd>=0.9.2' 'libwps' \
+		'neon>=0.28.6' 'pango' 'nspr' 'libjpeg' 'libxrandr' 'libgl' \
+		'libxslt' 'redland' 'hyphen' 'lpsolve' 'gcc-libs' 'sh' 'graphite' 'icu' \
+		'lcms2' 'poppler>=0.24.0' 'libvisio' 'libetonyek' 'libodfgen' 'libcdr' \
+		'libmspub' 'harfbuzz-icu' 'nss' 'clucene' 'hicolor-icon-theme' \
+		'desktop-file-utils' 'shared-mime-info' 'libpagemaker' \
+		'libxinerama' 'libabw' 'libmwaw' 'libe-book' 'libcups' \
+		'liblangtag' 'libexttextcat' 'liborcus' \
+		'libtommath' 'libzmf' 'libatomic_ops' 'xmlsec' 'gpgme' 'libnumbertext' \
+		'libfreehand' 'libstaroffice' 'libepubgen' 'libqxp' 'libepoxy' 'box2d' \
+		'zxing-cpp' \
+		'xdg-utils')
+
+
+prepare() {
+
+	# 1. detect if source code is already cloned before
+	[[ -d $pkgname ]] && rm -rf $pkgname
+	git clone --depth=1 git://go.suokunlong.cn/lo/core $pkgname
+
+	# 2.
+	cd $srcdir/$pkgname
+	./autogen.sh
+
+	# 3. predownload tarballs needed from domestic network, otherwise it will download from German...German!!!
+	wget -r --level=1 -nd -P ./external/tarballs https://go.suokunlong.cn:88/dl/libreoffice/external_tarballs/
+
+}
+
+build() {
+
+	cd $srcdir/$pkgname
+	make
+
+}
+
+package() {
+
+	# libsvllo.so-gdb.py 在make时使用了$srcdir文件夹的绝对路径，
+	# When building libsvllo.so-gdb.py, absolute path is used.
+	# I assume it is what causes the warning below:
+	# "==> WARNING: Package contains reference to $srcdir"
+
+	cd $srcdir/$pkgname
+	mkdir -p $pkgdir/usr/lib
+	cp -r ./instdir $pkgdir/usr/lib/libreoffice
+
+	mkdir -p $pkgdir/usr/bin
+	ln -sf $pkgdir/usr/lib/libreoffice/program/soffice $pkgdir/usr/bin/$pkgname
+
+	mkdir -p $pkgdir/usr/share/applications
+
+	sed 's/${UNIXBASISROOTNAME}/libreoffice-my/; s/${PRODUCTNAME}/libreoffice-my/; s/-startcenter/ /; s/${PRODUCTVERSION} Start Center/ /' $pkgdir/usr/lib/libreoffice/share/xdg/startcenter.desktop > $pkgdir/usr/share/applications/$pkgname.desktop
+
+	echo "--------------------------------------------------------------------"
+	echo
+	echo "To run the package after it is istalled,"
+	echo
+	echo "please input "libreoffice-my" in CLI or run from application center."
+	echo
+	echo "--------------------------------------------------------------------"
+}
