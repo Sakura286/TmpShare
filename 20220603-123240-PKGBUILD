@@ -1,6 +1,6 @@
 
 # current commit: 826b0fc9a
-# 2022-06-02 22:45
+# 2022-06-03 9:38
 # To run the package after it is istalled,
 # please input "libreoffice-my" in CLI or run from application center.
 
@@ -71,7 +71,6 @@ build() {
 
 package() {
 
-	# libsvllo.so-gdb.py 在make时使用了$srcdir文件夹的绝对路径，
 	# When building libsvllo.so-gdb.py, absolute path is used.
 	# I assume it is what causes the warning below:
 	# "==> WARNING: Package contains reference to $srcdir"
