@@ -1,0 +1,478 @@
+checking whether make sets $(MAKE)... yes
+checking build system type... riscv64-unknown-linux-gnu
+checking for /proc/self/maps... no
+checking whether everything is installed to the same prefix... no
+checking whether binary relocation support should be enabled... no
+checking host system type... riscv64-unknown-linux-gnu
+checking for riscv64-unknown-linux-gnu-gcc... /usr/bin/ccache gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/ccache gcc accepts -g... yes
+checking for /usr/bin/ccache gcc option to accept ISO C89... none needed
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for cc_r... /usr/bin/ccache gcc
+checking for gawk... no
+checking for mawk... mawk
+checking for /usr/bin/ccache gcc option to accept ISO C99... none needed
+checking for /usr/bin/ccache gcc option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... /usr/bin/ccache gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether /usr/bin/ccache gcc needs -traditional... no
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/ccache g++ accepts -g... yes
+checking how to run the C preprocessor... /usr/bin/ccache gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /usr/bin/ccache gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... gcc-nm
+checking the name lister (gcc-nm) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert riscv64-unknown-linux-gnu file names to riscv64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert riscv64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for riscv64-unknown-linux-gnu-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for riscv64-unknown-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for riscv64-unknown-linux-gnu-ar... gcc-ar
+checking for archiver @FILE support... @
+checking for riscv64-unknown-linux-gnu-strip... strip
+checking for riscv64-unknown-linux-gnu-ranlib... gcc-ranlib
+checking command to parse gcc-nm output from /usr/bin/ccache gcc object... ok
+checking for sysroot... no
+checking for riscv64-unknown-linux-gnu-mt... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /usr/bin/ccache gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/bin/ccache gcc option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/ccache gcc PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/ccache gcc static flag -static works... yes
+checking if /usr/bin/ccache gcc supports -c -o file.o... yes
+checking if /usr/bin/ccache gcc supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/ccache gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... /usr/bin/ccache g++ -E
+checking for ld used by /usr/bin/ccache g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the /usr/bin/ccache g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for /usr/bin/ccache g++ option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/ccache g++ PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/ccache g++ static flag -static works... yes
+checking if /usr/bin/ccache g++ supports -c -o file.o... yes
+checking if /usr/bin/ccache g++ supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/ccache g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking assert.h usability... yes
+checking assert.h presence... yes
+checking for assert.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking for sys/wait.h that is POSIX.1 compatible... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/mount.h usability... yes
+checking sys/mount.h presence... yes
+checking for sys/mount.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/signal.h usability... yes
+checking sys/signal.h presence... yes
+checking for sys/signal.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for sys/signal.h... (cached) yes
+checking sys/siginfo.h usability... no
+checking sys/siginfo.h presence... no
+checking for sys/siginfo.h... no
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking varargs.h usability... no
+checking varargs.h presence... no
+checking for varargs.h... no
+checking crypt.h usability... yes
+checking crypt.h presence... yes
+checking for crypt.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking rpc/rpc.h usability... no
+checking rpc/rpc.h presence... no
+checking for rpc/rpc.h... no
+checking netconfig.h usability... no
+checking netconfig.h presence... no
+checking for netconfig.h... no
+checking for rpc/xdr.h... no
+checking aio.h usability... yes
+checking aio.h presence... yes
+checking for aio.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking mnttab.h usability... no
+checking mnttab.h presence... no
+checking for mnttab.h... no
+checking sys/mntent.h usability... no
+checking sys/mntent.h presence... no
+checking for sys/mntent.h... no
+checking sys/mnttab.h usability... no
+checking sys/mnttab.h presence... no
+checking for sys/mnttab.h... no
+checking sys/ipc.h usability... yes
+checking sys/ipc.h presence... yes
+checking for sys/ipc.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/sem.h usability... yes
+checking sys/sem.h presence... yes
+checking for sys/sem.h... yes
+checking semaphore.h usability... yes
+checking semaphore.h presence... yes
+checking for semaphore.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking atomic.h usability... no
+checking atomic.h presence... no
+checking for atomic.h... no
+checking atomic_ops.h usability... yes
+checking atomic_ops.h presence... yes
+checking for atomic_ops.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking linux/falloc.h usability... yes
+checking linux/falloc.h presence... yes
+checking for linux/falloc.h... yes
+checking socket.h usability... no
+checking socket.h presence... no
+checking for socket.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking winsock2.h usability... no
+checking winsock2.h presence... no
+checking for winsock2.h... no
+checking whether SOCK_CLOEXEC is declared... yes
+checking unicode/ucnv.h usability... yes
+checking unicode/ucnv.h presence... yes
+checking for unicode/ucnv.h... yes
+checking tommath.h usability... yes
+checking tommath.h presence... yes
+checking for tommath.h... yes
+checking for mp_init in -ltommath... yes
+checking for library containing dlopen... -ldl
+checking for main in -lm... yes
+checking for library containing inet_aton... none required
+checking for library containing atomic_inc... no
+checking for main in -latomic_ops... no
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking for main in -lsupc++... yes
+checking for main in -lgcc_eh... yes
+checking for gettimeofday... yes
+checking if gettimeofday accepts second (timezone) argument... yes
+checking for time... yes
+checking for times... yes
+checking for nanosleep... yes
+checking for library containing gethostname... none required
+checking for library containing gethostbyname... none required
+checking for library containing connect... none required
+checking for strcasecmp... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for library containing dirname... none required
+checking for dirname... yes
+checking for sigaction... yes
+checking for setitimer... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for swab... yes
+checking for _swab... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether setpgrp takes no argument... yes
+checking for setpgid... yes
+checking whether getpgrp requires zero arguments... yes
+checking for flock... yes
+checking for dladdr... yes
+checking for initgroups... yes
+checking for getpagesize... (cached) yes
+checking for pread... yes
+checking for pwrite... yes
+checking for getcwd... yes
+checking for getwd... yes
+checking for setmntent... yes
+checking for getmntent... yes
+checking if getmntent needs second argument... no
+checking for setrlimit... yes
+checking for getrlimit... yes
+checking for tcgetattr... yes
+checking for strdup... yes
+checking for mkstemp... yes
+checking for pthread_keycreate... no
+checking for pthread_key_create... yes
+checking for llrint... yes
+checking for localtime_r... yes
+checking for gmtime_r... yes
+checking for ctime_r... yes
+checking for fchmod... yes
+checking for semtimedop... yes
+checking for fegetenv... yes
+checking for strerror_r... yes
+checking for qsort_r... yes
+checking for fdatasync... yes
+checking for fsync... yes
+checking for poll... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for pthread_mutexattr_setprotocol... yes
+checking for pthread_mutexattr_setrobust_np... yes
+checking for pthread_mutex_consistent_np... yes
+checking for pthread_rwlockattr_setkind_np... yes
+checking for pthread_cancel... yes
+checking for pthread_atfork... yes
+checking for sigset... yes
+checking for fallocate... yes
+checking for accept4... yes
+checking for library containing sem_init... none required
+checking for sem_timedwait... yes
+checking for sem_init... yes
+checking for working sem_init()... yes
+checking for library containing iconv_open... none required
+checking for library containing libiconv_open... no
+checking whether byte ordering is bigendian... no
+checking for working volatile... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for native large file support... yes
+checking size of void *... 8
+checking size of long... 8
+checking size of size_t... 8
+checking for socklen_t... yes
+checking for semun... no
+checking if sem.h defines semun... no
+checking for struct XDR::xdr_ops... no
+checking for struct xdr_ops... no
+checking for struct dirent.d_type... yes
+checking alignment of long... 8
+checking alignment of double... 8
+checking for /proc/self/exe... no
+configure: creating ./config.status
+Creating Debug directories
+Creating Release directories
+files are identical
+config.status: creating gen/Debug/firebird/firebird.conf
+config.status: creating gen/Debug/firebird/databases.conf
+config.status: creating gen/Debug/firebird/fbtrace.conf
+config.status: creating gen/Debug/firebird/intl/fbintl.conf
+config.status: creating gen/Debug/firebird/plugins.conf
+config.status: creating gen/Release/firebird/firebird.conf
+config.status: creating gen/Release/firebird/databases.conf
+config.status: creating gen/Release/firebird/fbtrace.conf
+config.status: creating gen/Release/firebird/intl/fbintl.conf
+config.status: creating gen/Release/firebird/plugins.conf
+config.status: creating gen/Release/firebird/bin/fb_config
+config.status: creating gen/Release/firebird/bin/posixLibrary.sh
+config.status: creating gen/Release/firebird/bin/install.sh
+config.status: creating gen/Release/firebird/bin/FirebirdUninstall.sh
+config.status: creating gen/Release/firebird/bin/changeServerMode.sh
+config.status: creating gen/Release/firebird/bin/registerDatabase.sh
+config.status: creating gen/vers.sh
+config.status: creating gen/install/makeInstallImage.sh
+config.status: creating gen/install/misc/firebird.xinetd
+config.status: creating gen/install/misc/firebird.init.d.generic
+config.status: creating gen/install/misc/firebird.init.d.mandrake
+config.status: creating gen/install/misc/firebird.init.d.suse
+config.status: creating gen/install/misc/firebird.init.d.debian
+config.status: creating gen/install/misc/firebird.init.d.gentoo
+config.status: creating gen/install/misc/firebird.init.d.slackware
+config.status: creating gen/install/misc/rc.config.firebird
+config.status: creating gen/Release/firebird/bin/linuxLibrary.sh
+config.status: creating gen/install/misc/firebird-classic@.service
+config.status: creating gen/install/misc/firebird-classic.socket
+config.status: creating gen/install/misc/firebird-superserver.service
+config.status: creating gen/make.rules
+config.status: creating gen/make.defaults
+config.status: creating gen/make.platform
+config.status: creating gen/darwin.defaults
+config.status: creating gen/make.shared.variables
+config.status: creating gen/make.shared.targets
+config.status: creating gen/Makefile
+config.status: creating gen/examples/Makefile.examples
+config.status: creating gen/Makefile.plugins_examples
+config.status: creating gen/Makefile.install
+config.status: creating Makefile
+config.status: creating gen/Makefile.extern.editline
+config.status: creating src/include/gen/autoconfig.auto
+config.status: executing libtool commands
+
+
+The Firebird3 package has been configured with the following options:
+
+                    Raw devices : enabled
+                   Service name : gds_db
+                   Service port : 3050
+                   GPRE modules : c_cxx.cpp
+
+                    Install Dir : /usr/local/firebird
+
+/usr/bin/ld: main.o: in function `.L0 ':
+main.c:(.text+0x8f0): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+src/cloop/Main.cpp: In function 'void run(int, const char**)':
+src/cloop/Main.cpp:56:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   56 |         auto_ptr<Generator> generator;
+      |         ^~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from src/cloop/Main.cpp:27:
+/usr/include/c++/11/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /home/infinity/libreoffice/workdir/UnpackedTarball/firebird/src/include/firebird.h:79,
+                 from /home/infinity/libreoffice/workdir/UnpackedTarball/firebird/src/gpre/c_cxx.cpp:32:
+/home/infinity/libreoffice/workdir/UnpackedTarball/firebird/src/include/../common/common.h:565:2: error: #error Define FB_CPU for your platform
+  565 | #error Define FB_CPU for your platform
+      |  ^~~~~
+make[5]: *** [make.rules:102: /home/infinity/libreoffice/workdir/UnpackedTarball/firebird/temp/Release/gpre/c_cxx.o] Error 1
+make[4]: *** [Makefile:187: master_process] Error 2
+make[3]: *** [Makefile:66: firebird] Error 2
+make[2]: *** [Makefile:6: firebird] Error 2
+make[1]: *** [/home/infinity/libreoffice/external/firebird/ExternalProject_firebird.mk:30: /home/infinity/libreoffice/workdir/ExternalProject/firebird/build] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:288: build] Error 2
