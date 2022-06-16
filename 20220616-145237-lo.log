@@ -1,0 +1,112 @@
+# uno bridge错误
+mkdir -p /home/infinity/libreoffice/instdir
+/home/infinity/libreoffice/solenv/bin/install-gdb-printers -a /home/infinity/libreoffice/instdir -c
+make -j 8  -rs -f /home/infinity/libreoffice/Makefile.gbuild build  
+[DEP] LNK:Library/libjvmfwklo.so.d
+[DEP] LNK:Library/libucbhelper.so.d
+[LNK] Library/libucbhelper.so
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjavaplugin.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/util.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorbase.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorlist.cxx
+[CXX] jvmfwk/source/framework.cxx
+[CXX] jvmfwk/source/fwkbase.cxx
+[CXX] jvmfwk/source/fwkutil.cxx
+[CXX] jvmfwk/source/libxmlutil.cxx
+[CXX] jvmaccess/source/classpath.cxx
+[CXX] jvmaccess/source/unovirtualmachine.cxx
+[CXX] jvmaccess/source/virtualmachine.cxx
+[CXX] vcl/source/salmain/salmain.cxx
+[JVM] CustomTarget/ridljar/javamaker/done
+[CXX] bridges/source/cpp_uno/gcc3_linux_riscv64/except.cxx
+[CXX] bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx
+[CXX] bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx
+[ASM] bridges/source/cpp_uno/gcc3_linux_riscv64/call
+[CXX] bridges/source/cpp_uno/shared/bridge.cxx
+[CXX] bridges/source/cpp_uno/shared/component.cxx
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx:47:10: fatal error: sys/sysmips.h: No such file or directory
+   47 | #include <sys/sysmips.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:337: /home/infinity/libreoffice/workdir/CxxObject/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s: Assembler messages:
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:25: Error: unknown pseudo-op: `.ent'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:28: Error: expected comma after "noreorder"
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:29: Error: unrecognized opcode `daddiu $sp,$sp,-160'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:31: Error: illegal operands `sd $ra,152($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:35: Error: unrecognized opcode `sdc1 $f12,80($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:36: Error: unrecognized opcode `sdc1 $f13,88($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:37: Error: unrecognized opcode `sdc1 $f14,96($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:38: Error: unrecognized opcode `sdc1 $f15,104($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:39: Error: unrecognized opcode `sdc1 $f16,112($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:40: Error: unrecognized opcode `sdc1 $f17,120($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:41: Error: unrecognized opcode `sdc1 $f18,128($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:42: Error: unrecognized opcode `sdc1 $f19,136($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:44: Error: illegal operands `sd $a0,16($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:45: Error: illegal operands `sd $a1,24($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:46: Error: illegal operands `sd $a2,32($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:47: Error: illegal operands `sd $a3,40($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:48: Error: illegal operands `sd $a4,48($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:49: Error: illegal operands `sd $a5,56($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:50: Error: illegal operands `sd $a6,64($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:51: Error: illegal operands `sd $a7,72($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:54: Error: illegal operands `move $a0,$v0'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:56: Error: illegal operands `move $a1,$v1'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:58: Error: unrecognized opcode `daddiu $a2,$sp,16'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:60: Error: unrecognized opcode `daddiu $a3,$sp,80'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:62: Error: unrecognized opcode `daddiu $a4,$sp,160'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:64: Error: illegal operands `jalr $t9'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:66: Error: illegal operands `move $a5,$sp'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:70: Error: illegal operands `li $v1,10'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:71: Error: illegal operands `beq $v0,$v1,.Lfloat'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:72: Error: illegal operands `li $v1,11'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:73: Error: illegal operands `beq $v0,$v1,.Lfloat'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:74: Error: unrecognized opcode `ldc1 $f0,0($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:75: Error: unrecognized opcode `ldc1 $f2,8($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:76: Error: illegal operands `ld $v0,0($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:77: Error: unrecognized opcode `b .Lfinish'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:78: Error: illegal operands `ld $v1,8($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:80: Error: unrecognized opcode `ldc1 $f0,0($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:81: Error: unrecognized opcode `ldc1 $f2,8($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:84: Error: illegal operands `ld $ra,152($sp)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:86: Error: illegal operands `jr $ra'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:87: Error: unrecognized opcode `daddiu $sp,$sp,160'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:90: Error: expected comma after "reorder"
+/tmp/ccfYk3yr.s: Error: open CFI at the end of file; missing .cfi_endproc directive
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:703: /home/infinity/libreoffice/workdir/AsmObject/bridges/source/cpp_uno/gcc3_linux_riscv64/call.o] Error 1
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx: In function 'void bridges::cpp_uno::shared::unoInterfaceProxyDispatch(uno_Interface*, const typelib_TypeDescription*, void*, void**, uno_Any**)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:565:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  565 |             } // else perform queryInterface()
+      |             ^
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:566:11: note: here
+  566 |           default:
+      |           ^~~~~~~
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx: In function 'void {anonymous}::callVirtualMethod(void*, sal_Int32, void*, typelib_TypeDescriptionReference*, bool, sal_uInt64*, sal_uInt32, sal_uInt64*, double*, sal_uInt32)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f19' in 'asm'
+  174 |     asm volatile (
+      |     ^~~
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f18' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f17' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f16' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f15' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f14' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f13' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f12' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f2' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$f0' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$31' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$11' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$10' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$9' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$8' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$7' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$6' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$5' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$4' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$3' in 'asm'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: unknown register name '$2' in 'asm'
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.o] Error 1
+make: *** [Makefile:288: build] Error 2
