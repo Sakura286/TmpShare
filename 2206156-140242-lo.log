@@ -1,0 +1,298 @@
+infinity@infinity-vm-debian-sid:~/libreoffice$ make
+mkdir -p /home/infinity/libreoffice/instdir
+/home/infinity/libreoffice/solenv/bin/install-gdb-printers -a /home/infinity/libreoffice/instdir -c
+make -j 8  -rs -f /home/infinity/libreoffice/Makefile.gbuild build  
+[DEP] LNK:Library/libxmlreaderlo.so.d
+[DEP] LNK:Library/libjuh.so.d
+[DEP] LNK:Library/libindex_data.so.d
+[DEP] LNK:Library/libcollator_data.so.d
+[DEP] LNK:Library/libuno_cppuhelpergcc3.so.3.d
+[PRJ] gpgmepp
+[DEP] LNK:Library/libxmlreaderlo.so.d
+[LNK] Library/libxmlreaderlo.so
+[CXX] cppuhelper/source/unourl.cxx
+[CXX] cppuhelper/source/weak.cxx
+[CXX] ucbhelper/source/client/activedatasink.cxx
+[CXX] ucbhelper/source/client/activedatastreamer.cxx
+[CXX] ucbhelper/source/client/commandenvironment.cxx
+[CXX] ucbhelper/source/client/content.cxx
+[CXX] ucbhelper/source/client/interceptedinteraction.cxx
+[CXX] ucbhelper/source/client/proxydecider.cxx
+[CXX] ucbhelper/source/provider/authenticationfallback.cxx
+[CXX] ucbhelper/source/provider/cancelcommandexecution.cxx
+[CXX] ucbhelper/source/provider/contenthelper.cxx
+[CXX] ucbhelper/source/provider/contentidentifier.cxx
+[CXX] ucbhelper/source/provider/contentinfo.cxx
+[CXX] ucbhelper/source/provider/fd_inputstream.cxx
+[CXX] ucbhelper/source/provider/interactionrequest.cxx
+[CXX] ucbhelper/source/provider/propertyvalueset.cxx
+[CXX] ucbhelper/source/provider/providerhelper.cxx
+[CXX] ucbhelper/source/provider/registerucb.cxx
+[CXX] ucbhelper/source/provider/resultset.cxx
+[CXX] ucbhelper/source/provider/resultsethelper.cxx
+[CXX] ucbhelper/source/provider/resultsetmetadata.cxx
+[CXX] ucbhelper/source/provider/simpleauthenticationrequest.cxx
+[CXX] ucbhelper/source/provider/simplecertificatevalidationrequest.cxx
+[CXX] ucbhelper/source/provider/simpleinteractionrequest.cxx
+[CXX] ucbhelper/source/provider/simpleioerrorrequest.cxx
+[CXX] ucbhelper/source/provider/simplenameclashresolverequest.cxx
+[CXX] i18nlangtag/source/isolang/insys.cxx
+[CXX] i18nlangtag/source/isolang/isolang.cxx
+[CXX] i18nlangtag/source/isolang/mslangid.cxx
+[CXX] i18nlangtag/source/languagetag/languagetag.cxx
+[CXX] i18nlangtag/source/languagetag/languagetagicu.cxx
+[HPP] oovbaapi
+[PRJ] liborcus
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjavaplugin.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunversion.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/util.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorbase.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorlist.cxx
+[CXX] jvmfwk/source/elements.cxx
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.hxx:23,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:21:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx: In member function 'virtual const char* const* jfw_plugin::OtherInfo::getRuntimePaths(int*)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:64:17: error: expected '}' before 'JFW_PLUGIN_ARCH'
+   64 |         "/lib/" JFW_PLUGIN_ARCH "/client/libjvm.so", // for Blackdown PPC
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:50:30: note: to match this '{'
+   50 |     static char const* ar[]= {
+      |                              ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:64:17: error: expected ',' or ';' before 'JFW_PLUGIN_ARCH'
+   64 |         "/lib/" JFW_PLUGIN_ARCH "/client/libjvm.so", // for Blackdown PPC
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:50:24: warning: unused variable 'ar' [-Wunused-variable]
+   50 |     static char const* ar[]= {
+      |                        ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:73:5: warning: no return statement in function returning non-void [-Wreturn-type]
+   73 |     };
+      |     ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:48:53: warning: unused parameter 'size' [-Wunused-parameter]
+   48 | char const* const* OtherInfo::getRuntimePaths(int * size)
+      |                                               ~~~~~~^~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:74:11: error: expected constructor, destructor, or type conversion before '=' token
+   74 |     *size = SAL_N_ELEMENTS(ar);
+      |           ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:75:5: error: expected unqualified-id before 'return'
+   75 |     return ar;
+      |     ^~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:78:20: error: 'OtherInfo' has not been declared
+   78 | char const* const* OtherInfo::getLibraryPaths(int* size)
+      |                    ^~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx: In function 'const char* const* getLibraryPaths(int*)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:88:17: error: expected '}' before 'JFW_PLUGIN_ARCH'
+   88 |         "/lib/" JFW_PLUGIN_ARCH "/client",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:83:32: note: to match this '{'
+   83 |     static char const * ar[] = {
+      |                                ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:88:17: error: expected ',' or ';' before 'JFW_PLUGIN_ARCH'
+   88 |         "/lib/" JFW_PLUGIN_ARCH "/client",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:83:25: warning: unused variable 'ar' [-Wunused-variable]
+   83 |     static char const * ar[] = {
+      |                         ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:94:5: warning: no return statement in function returning non-void [-Wreturn-type]
+   94 |     };
+      |     ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:78:52: warning: unused parameter 'size' [-Wunused-parameter]
+   78 | char const* const* OtherInfo::getLibraryPaths(int* size)
+      |                                               ~~~~~^~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:96:11: error: expected constructor, destructor, or type conversion before '=' token
+   96 |     *size = SAL_N_ELEMENTS(ar);
+      |           ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:97:5: error: expected unqualified-id before 'return'
+   97 |     return ar;
+      |     ^~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:102:1: error: expected declaration before '}' token
+  102 | }
+      | ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:104:5: error: 'OtherInfo' has not been declared
+  104 | int OtherInfo::compareVersions(const OUString& /*sSecond*/) const
+      |     ^~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:104:61: error: non-member function 'int compareVersions(const rtl::OUString&)' cannot have cv-qualifier
+  104 | int OtherInfo::compareVersions(const OUString& /*sSecond*/) const
+      |                                                             ^~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:113:1: error: expected declaration before '}' token
+  113 | }
+      | ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:83:25: warning: 'ar' defined but not used [-Wunused-variable]
+   83 |     static char const * ar[] = {
+      |                         ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx:50:24: warning: 'ar' defined but not used [-Wunused-variable]
+   50 |     static char const* ar[]= {
+      |                        ^~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:337: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/otherjre.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.hxx:23,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:21:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: In member function 'virtual const char* const* jfw_plugin::SunInfo::getRuntimePaths(int*)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:65:17: error: expected '}' before 'JFW_PLUGIN_ARCH'
+   65 |         "/lib/" JFW_PLUGIN_ARCH "/client/libjvm.so",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:52:30: note: to match this '{'
+   52 |     static char const* ar[]= {
+      |                              ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:65:17: error: expected ',' or ';' before 'JFW_PLUGIN_ARCH'
+   65 |         "/lib/" JFW_PLUGIN_ARCH "/client/libjvm.so",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:52:24: warning: unused variable 'ar' [-Wunused-variable]
+   52 |     static char const* ar[]= {
+      |                        ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:71:5: warning: no return statement in function returning non-void [-Wreturn-type]
+   71 |     };
+      |     ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:50:51: warning: unused parameter 'size' [-Wunused-parameter]
+   50 | char const* const* SunInfo::getRuntimePaths(int * size)
+      |                                             ~~~~~~^~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:72:11: error: expected constructor, destructor, or type conversion before '=' token
+   72 |     *size = SAL_N_ELEMENTS(ar);
+      |           ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:73:5: error: expected unqualified-id before 'return'
+   73 |     return ar;
+      |     ^~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:76:20: error: 'SunInfo' has not been declared
+   76 | char const* const* SunInfo::getLibraryPaths(int* size)
+      |                    ^~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: In function 'const char* const* getLibraryPaths(int*)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:80:17: error: expected '}' before 'JFW_PLUGIN_ARCH'
+   80 |         "/lib/" JFW_PLUGIN_ARCH "/client",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:79:32: note: to match this '{'
+   79 |     static char const * ar[] = {
+      |                                ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:80:17: error: expected ',' or ';' before 'JFW_PLUGIN_ARCH'
+   80 |         "/lib/" JFW_PLUGIN_ARCH "/client",
+      |                 ^~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:79:25: warning: unused variable 'ar' [-Wunused-variable]
+   79 |     static char const * ar[] = {
+      |                         ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:84:5: warning: no return statement in function returning non-void [-Wreturn-type]
+   84 |     };
+      |     ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:76:50: warning: unused parameter 'size' [-Wunused-parameter]
+   76 | char const* const* SunInfo::getLibraryPaths(int* size)
+      |                                             ~~~~~^~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:85:11: error: expected constructor, destructor, or type conversion before '=' token
+   85 |     *size = SAL_N_ELEMENTS(ar);
+      |           ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:86:5: error: expected unqualified-id before 'return'
+   86 |     return ar;
+      |     ^~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:91:1: error: expected declaration before '}' token
+   91 | }
+      | ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:93:5: error: 'SunInfo' has not been declared
+   93 | int SunInfo::compareVersions(const OUString& sSecond) const
+      |     ^~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:93:55: error: non-member function 'int compareVersions(const rtl::OUString&)' cannot have cv-qualifier
+   93 | int SunInfo::compareVersions(const OUString& sSecond) const
+      |                                                       ^~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: In function 'int compareVersions(const rtl::OUString&)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:95:23: error: 'getVersion' was not declared in this scope
+   95 |     OUString sFirst = getVersion();
+      |                       ^~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:97:5: error: 'SunVersion' was not declared in this scope; did you mean 'jfw_plugin::SunVersion'?
+   97 |     SunVersion version1(sFirst);
+      |     ^~~~~~~~~~
+      |     jfw_plugin::SunVersion
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:22:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunversion.hxx:53:7: note: 'jfw_plugin::SunVersion' declared here
+   53 | class SunVersion final
+      |       ^~~~~~~~~~
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/diagnostics.h:25,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:23:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:98:16: error: 'version1' was not declared in this scope
+   98 |     JFW_ENSURE(version1, "[Java framework] sunjavaplugin" SAL_DLLEXTENSION
+      |                ^~~~~~~~
+/home/infinity/libreoffice/include/sal/log.hxx:151:13: note: in definition of macro 'SAL_DETAIL_LOG_STREAM'
+  151 |         if (condition) \
+      |             ^~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/diagnostics.h:27:26: note: in expansion of macro 'SAL_WARN_IF'
+   27 | #define JFW_ENSURE(c, m) SAL_WARN_IF(!(c), "jfw", m)
+      |                          ^~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:98:5: note: in expansion of macro 'JFW_ENSURE'
+   98 |     JFW_ENSURE(version1, "[Java framework] sunjavaplugin" SAL_DLLEXTENSION
+      |     ^~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:101:15: error: expected ';' before 'version2'
+  101 |     SunVersion version2(sSecond);
+      |               ^~~~~~~~~
+      |               ;
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:102:12: error: 'version2' was not declared in this scope
+  102 |     if ( ! version2)
+      |            ^~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:103:15: error: 'MalformedVersionException' was not declared in this scope; did you mean 'jfw_plugin::MalformedVersionException'?
+  103 |         throw MalformedVersionException();
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |               jfw_plugin::MalformedVersionException
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.hxx:23,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:21:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:82:7: note: 'jfw_plugin::MalformedVersionException' declared here
+   82 | class MalformedVersionException final : public std::exception
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:105:9: error: 'version1' was not declared in this scope
+  105 |     if (version1 == version2)
+      |         ^~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:105:21: error: 'version2' was not declared in this scope
+  105 |     if (version1 == version2)
+      |                     ^~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:107:9: error: 'version1' was not declared in this scope
+  107 |     if (version1 > version2)
+      |         ^~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:107:20: error: 'version2' was not declared in this scope
+  107 |     if (version1 > version2)
+      |                    ^~~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:93:46: warning: unused parameter 'sSecond' [-Wunused-parameter]
+   93 | int SunInfo::compareVersions(const OUString& sSecond) const
+      |                              ~~~~~~~~~~~~~~~~^~~~~~~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:114:1: error: expected declaration before '}' token
+  114 | }
+      | ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: In function 'int compareVersions(const rtl::OUString&)':
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:111:1: warning: control reaches end of non-void function [-Wreturn-type]
+  111 | }
+      | ^
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx: At global scope:
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:79:25: warning: 'ar' defined but not used [-Wunused-variable]
+   79 |     static char const * ar[] = {
+      |                         ^~
+/home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx:52:24: warning: 'ar' defined but not used [-Wunused-variable]
+   52 |     static char const* ar[]= {
+      |                        ^~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:337: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/sunjre.o] Error 1
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjavaplugin.cxx:68:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/sunjavaplugin.o] Error 1
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/sunjre.hxx:23,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/vendorlist.cxx:22:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/vendorlist.o] Error 1
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/vendorbase.cxx:23:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/vendorbase.o] Error 1
+In file included from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/util.hxx:24,
+                 from /home/infinity/libreoffice/jvmfwk/plugins/sunmajor/pluginlib/util.cxx:22:
+/home/infinity/libreoffice/jvmfwk/inc/vendorbase.hxx:79:2: error: #error unknown platform
+   79 | #error unknown platform
+      |  ^~~~~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/jvmfwk/plugins/sunmajor/pluginlib/util.o] Error 1
+make: *** [Makefile:288: build] Error 2
