@@ -1,0 +1,52 @@
+# 继续应用patch
+# bridges/Library_cpp_uno.mk
+# 未改动的部分
+# external/pdfium/configs/build_config.h
+
+mkdir -p /home/infinity/libreoffice/instdir
+/home/infinity/libreoffice/solenv/bin/install-gdb-printers -a /home/infinity/libreoffice/instdir -c
+make -j 8  -rs -f /home/infinity/libreoffice/Makefile.gbuild build  
+[DEP] LNK:Library/libgcc3_uno.so.d
+[CMP] binaryurp/source/binaryurp
+[CXX] bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx
+[CXX] bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx
+[ASM] bridges/source/cpp_uno/gcc3_linux_riscv64/call
+[CXX] bridges/source/cpp_uno/shared/vtables.cxx
+[CXX] bridges/source/cpp_uno/shared/cppinterfaceproxy.cxx
+[CXX] cppu/source/helper/purpenv/helper_purpenv_Environment.cxx
+[CXX] cppu/source/helper/purpenv/helper_purpenv_Mapping.cxx
+[CXX] cppu/source/helper/purpenv/helper_purpenv_Proxy.cxx
+[CXX] cppu/source/AffineBridge/AffineBridge.cxx
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s: Assembler messages:
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:61: Error: illegal operands `mv a1,0(ra)'
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/call.s:82: Error: unrecognized opcode `b .Lfinish'
+/tmp/ccmCpgbR.s: Error: open CFI at the end of file; missing .cfi_endproc directive
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:703: /home/infinity/libreoffice/workdir/AsmObject/bridges/source/cpp_uno/gcc3_linux_riscv64/call.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx: In function 'void bridges::cpp_uno::shared::unoInterfaceProxyDispatch(uno_Interface*, const typelib_TypeDescription*, void*, void**, uno_Any**)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:565:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  565 |             } // else perform queryInterface()
+      |             ^
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:566:11: note: here
+  566 |           default:
+      |           ^~~~~~~
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx: In function 'void {anonymous}::callVirtualMethod(void*, sal_Int32, void*, typelib_TypeDescriptionReference*, bool, sal_uInt64*, sal_uInt32, sal_uInt64*, double*, sal_uInt32)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: warning: listing the stack pointer register 'x2' in a clobber list is deprecated [-Wdeprecated]
+  174 |     asm volatile (
+      |     ^~~
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: note: the value of the stack pointer after an 'asm' statement must be the same as it was before the statement
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.cxx:174:5: error: impossible constraint in 'asm'
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/bridges/source/cpp_uno/gcc3_linux_riscv64/uno2cpp.o] Error 1
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx: In static member function 'static void bridges::cpp_uno::shared::VtableFactory::flushCode(const unsigned char*, const unsigned char*)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx:616:3: error: 'cacheflush' was not declared in this scope
+  616 |   cacheflush((long) bptr, (long) eptr, 0);
+      |   ^~~~~~~~~~
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx: In function 'typelib_TypeClass {anonymous}::cpp_vtable_call(sal_Int32, sal_Int32, void**, void**, void**, sal_uInt64*)':
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx:510:15: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  510 |               } // else perform queryInterface()
+      |               ^
+/home/infinity/libreoffice/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.cxx:511:13: note: here
+  511 |             default:
+      |             ^~~~~~~
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/LinkTarget.mk:334: /home/infinity/libreoffice/workdir/CxxObject/bridges/source/cpp_uno/gcc3_linux_riscv64/cpp2uno.o] Error 1
+make: *** [Makefile:288: build] Error 2
