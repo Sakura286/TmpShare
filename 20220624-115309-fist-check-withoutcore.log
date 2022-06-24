@@ -1,0 +1,26 @@
+[CUT] dbaccess_dialog_save
+Illegal instruction
+[_RUN_____] DialogSaveTest::test
+
+No core file identified in directory /home/infinity/libreoffice/workdir/CppunitTest/dbaccess_dialog_save.test.core
+To show backtraces for crashes during test execution,
+enable core files with:
+
+   ulimit -c unlimited
+
+
+Error: a unit test failed, please do one of:
+
+make CppunitTest_dbaccess_dialog_save CPPUNITTRACE="gdb --args"
+    # for interactive debugging on Linux
+make CppunitTest_dbaccess_dialog_save VALGRIND=memcheck
+    # for memory checking
+make CppunitTest_dbaccess_dialog_save DEBUGCPPUNIT=TRUE
+    # for exception catching
+
+You can limit the execution to just one particular test by:
+
+make CPPUNIT_TEST_NAME="testXYZ" ...above mentioned params...
+
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/CppunitTest.mk:121: /home/infinity/libreoffice/workdir/CppunitTest/dbaccess_dialog_save.test] Error 1
+make: *** [Makefile:288: build] Error 2
