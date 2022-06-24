@@ -1,0 +1,80 @@
+make CppunitTest_dbaccess_dialog_save CPPUNITTRACE="gdb --args"
+make -j 8 -rs -f /home/infinity/libreoffice/Makefile.gbuild CppunitTest_dbaccess_dialog_save
+[CUT] dbaccess_dialog_save
+<frozen importlib._bootstrap>:914: ImportWarning: GdbRemoveReadlineFinder.find_spec() not found; falling back to find_module()
+GNU gdb (Debian 11.2-1) 11.2
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "riscv64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from /home/infinity/libreoffice/workdir/LinkTarget/Executable/cppunittester...
+(gdb) run
+Starting program: /home/infinity/libreoffice/workdir/LinkTarget/Executable/cppunittester /home/infinity/libreoffice/workdir/LinkTarget/CppunitTest/libtest_dbaccess_dialog_save.so --headless -env:BRAND_BASE_DIR=file:///home/infinity/libreoffice/instdir -env:BRAND_SHARE_SUBDIR=share -env:BRAND_SHARE_RESOURCE_SUBDIR=program/resource -env:UserInstallation=file:///home/infinity/libreoffice/workdir/CppunitTest/dbaccess_dialog_save.test.user -env:CONFIGURATION_LAYERS=xcsxcu:file:///home/infinity/libreoffice/instdir/share/registry\ xcsxcu:file:///home/infinity/libreoffice/workdir/unittest/registry -env:UNO_TYPES=file:///home/infinity/libreoffice/instdir/program/types/offapi.rdb\ file:///home/infinity/libreoffice/instdir/program/types/oovbaapi.rdb\ file:///home/infinity/libreoffice/instdir/program/types.rdb -env:UNO_SERVICES=file:///home/infinity/libreoffice/workdir/Rdb/ure/services.rdb\ file:///home/infinity/libreoffice/workdir/ComponentTarget/basic/util/sb.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/comphelper/util/comphelp.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/configmgr/source/configmgr.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/dba.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/dbu.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/sdbt.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/source/filter/xml/dbaxml.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/filter/source/config/cache/filterconfig1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/forms/util/frm.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/framework/util/fwk.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/i18npool/util/i18npool.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/linguistic/source/lng.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/oox/util/oox.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/package/source/xstor/xstor.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/package/util/package2.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sax/source/expatwrap/expwrap.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/scripting/source/basprov/basprov.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/scripting/util/scriptframe.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sfx2/util/sfx.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sot/util/sot.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/svl/source/fsstor/fsstorage.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/svl/util/svl.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/toolkit/util/tk.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/core/ucb1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/ucp/file/ucpfile1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/ucp/tdoc/ucptdoc1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unotools/util/utl.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unoxml/source/rdf/unordf.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unoxml/source/service/unoxml.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/uui/util/uui.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/xmloff/util/xo.component -env:URE_BIN_DIR=file:///home/infinity/libreoffice/--Type <RET> for more, q to quit, c to continue without paging--q
+Quit
+(gdb) bt
+No stack.
+(gdb) run
+Starting program: /home/infinity/libreoffice/workdir/LinkTarget/Executable/cppunittester /home/infinity/libreoffice/workdir/LinkTarget/CppunitTest/libtest_dbaccess_dialog_save.so --headless -env:BRAND_BASE_DIR=file:///home/infinity/libreoffice/instdir -env:BRAND_SHARE_SUBDIR=share -env:BRAND_SHARE_RESOURCE_SUBDIR=program/resource -env:UserInstallation=file:///home/infinity/libreoffice/workdir/CppunitTest/dbaccess_dialog_save.test.user -env:CONFIGURATION_LAYERS=xcsxcu:file:///home/infinity/libreoffice/instdir/share/registry\ xcsxcu:file:///home/infinity/libreoffice/workdir/unittest/registry -env:UNO_TYPES=file:///home/infinity/libreoffice/instdir/program/types/offapi.rdb\ file:///home/infinity/libreoffice/instdir/program/types/oovbaapi.rdb\ file:///home/infinity/libreoffice/instdir/program/types.rdb -env:UNO_SERVICES=file:///home/infinity/libreoffice/workdir/Rdb/ure/services.rdb\ file:///home/infinity/libreoffice/workdir/ComponentTarget/basic/util/sb.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/comphelper/util/comphelp.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/configmgr/source/configmgr.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/dba.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/dbu.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/util/sdbt.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/dbaccess/source/filter/xml/dbaxml.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/filter/source/config/cache/filterconfig1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/forms/util/frm.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/framework/util/fwk.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/i18npool/util/i18npool.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/linguistic/source/lng.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/oox/util/oox.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/package/source/xstor/xstor.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/package/util/package2.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sax/source/expatwrap/expwrap.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/scripting/source/basprov/basprov.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/scripting/util/scriptframe.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sfx2/util/sfx.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/sot/util/sot.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/svl/source/fsstor/fsstorage.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/svl/util/svl.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/toolkit/util/tk.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/core/ucb1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/ucp/file/ucpfile1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/ucb/source/ucp/tdoc/ucptdoc1.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unotools/util/utl.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unoxml/source/rdf/unordf.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/unoxml/source/service/unoxml.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/uui/util/uui.component\ file:///home/infinity/libreoffice/workdir/ComponentTarget/xmloff/util/xo.component -env:URE_BIN_DIR=file:///home/infinity/libreoffice/--Type <RET> for more, q to quit, c to continue without paging--c
+instdir/program -env:URE_INTERNAL_LIB_DIR=file:///home/infinity/libreoffice/instdir/program -env:LO_LIB_DIR=file:///home/infinity/libreoffice/instdir/program -env:LO_JAVA_DIR=file:///home/infinity/libreoffice/instdir/program/classes --protector /home/infinity/libreoffice/workdir/LinkTarget/Library/unoexceptionprotector.so unoexceptionprotector --protector /home/infinity/libreoffice/workdir/LinkTarget/Library/unobootstrapprotector.so unobootstrapprotector --protector /home/infinity/libreoffice/workdir/LinkTarget/Library/libvclbootstrapprotector.so vclbootstrapprotector -env:CPPUNITTESTTARGET=/home/infinity/libreoffice/workdir/CppunitTest/dbaccess_dialog_save.test
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/printers.py:1200: DeprecationWarning: invalid escape sequence '\d'
+  self.typename = re.sub('^std::experimental::fundamentals_v\d::', 'std::experimental::', self.typename, 1)
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/printers.py:1218: DeprecationWarning: invalid escape sequence '\w'
+  mgrname = re.sub("std::string(?!\w)", str(gdb.lookup_type('std::string').strip_typedefs()), m.group(1))
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/printers.py:1248: DeprecationWarning: invalid escape sequence '\d'     
+  self.typename = re.sub('^std::(experimental::|)(fundamentals_v\d::|)(.*)', r'std::\1\3<%s>' % valtype, typename, 1)
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:151: DeprecationWarning: invalid escape sequence '\d'
+  if not re.match('^std::(__\d+::)?array<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:268: DeprecationWarning: invalid escape sequence '\d'      
+  if not re.match('^std::(__\d+::)?deque<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:312: DeprecationWarning: invalid escape sequence '\d'      
+  if not re.match('^std::(__\d+::)?forward_list<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:393: DeprecationWarning: invalid escape sequence '\d'
+  if not re.match('^std::(__\d+::)?(__cxx11::)?list<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:508: DeprecationWarning: invalid escape sequence '\d'      
+  if not re.match('^std::(__\d+::)?vector<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:557: DeprecationWarning: invalid escape sequence '\d'      
+  if not re.match('^std::(__\d+::)?%s<.*>$' % self._name, class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:590: DeprecationWarning: invalid escape sequence '\d'
+  if re.match('^std::(__\d+::)?__uniq_ptr_(data|impl)<.*>$', impl_type):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:592: DeprecationWarning: invalid escape sequence '\d'      
+  elif re.match('^std::(__\d+::)?tuple<.*>$', impl_type):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:654: DeprecationWarning: invalid escape sequence '\d'      
+  if not re.match('^std::(__\d+::)?unique_ptr<.*>$', class_type.tag):
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:723: DeprecationWarning: invalid escape sequence '\['      
+  m = re.match('.*\[(\d+)]$', str(self._elem_type))
+/lib/riscv64-linux-gnu/../../share/gcc/python/libstdcxx/v6/xmethods.py:772: DeprecationWarning: invalid escape sequence '\d'
+  if not re.match('^std::(__\d+::)?shared_ptr<.*>$', class_type.tag):
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/riscv64-linux-gnu/libthread_db.so.1".
+[_RUN_____] DialogSaveTest::test
+[New Thread 0xffffffe75567d0 (LWP 474)]
+warn:legacy.osl:469:469:dbaccess/source/core/dataaccess/ModelImpl.cxx:764: ODatabaseModelImpl::getOrCreateRootStorage: no source to create the storage from!
+warn:legacy.osl:469:469:dbaccess/source/core/dataaccess/ModelImpl.cxx:764: ODatabaseModelImpl::getOrCreateRootStorage: no source to create the storage from!
+warn:legacy.osl:469:469:dbaccess/source/core/dataaccess/ModelImpl.cxx:764: ODatabaseModelImpl::getOrCreateRootStorage: no source to create the storage from!
+warn:dbaccess:469:469:dbaccess/source/filter/xml/xmlTable.cxx:76: unknown attribute urn:oasis:names:tc:opendocument:xmlns:database:1.0 db:command value=SELECT "Assets"."AssetID" AS "AssetID", "Assets"."DateSold" AS "DateSold" FROM "Assets" "Assets" WHERE ( "Assets"."AssetID" = 38353 )
+warn:dbaccess:469:469:dbaccess/source/filter/xml/xmlQuery.cxx:54: unknown attribute urn:oasis:names:tc:opendocument:xmlns:database:1.0 db:name value=Query_Assets
+[Thread 0xffffffe75567d0 (LWP 474) exited]
+[New Thread 0xffffffe75567d0 (LWP 475)]
+[Thread 0xffffffe75567d0 (LWP 475) exited]
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: 
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/appborderwindow/panel
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/titlewindow/TitleWindow
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/appborderwindow/detailwarn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/appdetailwindow/AppDetailWindow
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/appdetailwindow/tasks 
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/titlewindow/TitleWindow
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/appdetailwindow/container
+warn:vcl.layout:469:469:vcl/source/window/layout.cxx:290: nExtraSpace went negative for VclBox: dbaccess/ui/titlewindow/TitleWindow
+[New Thread 0xffffffe75567d0 (LWP 476)]
+
+Thread 1 "cppunittester" received signal SIGILL, Illegal instruction.
+0x00fffffff7e14038 in ?? ()
