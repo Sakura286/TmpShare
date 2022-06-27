@@ -1,0 +1,61 @@
+[CXX] workdir/UnpackedTarball/libcmis/src/libcmis/base-session.cxx
+/root/libreoffice-7.3.4.2/workdir/YaccTarget/unoidl/source/sourceprovider-parser.cxx: In function 'int yyparse(yyscan_t)':
+/root/libreoffice-7.3.4.2/workdir/YaccTarget/unoidl/source/sourceprovider-parser.cxx:5903:18: warning: 'void free(void*)' called on unallocated object 'yyssa' [-Wfree-nonheap-object]
+ 5903 |     YYSTACK_FREE (yyss);
+/root/libreoffice-7.3.4.2/workdir/YaccTarget/unoidl/source/sourceprovider-parser.cxx:2179:16: note: declared here
+ 2179 |     yy_state_t yyssa[YYINITDEPTH];
+      |                ^~~~~
+[CXX] workdir/UnpackedTarball/libcmis/src/libcmis/document.cxx
+[CXX] workdir/UnpackedTarball/libcmis/src/libcmis/folder.cxx
+[CXX] workdir/UnpackedTarball/libcmis/src/libcmis/gdrive-document.cxx
+configure.ac:356: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:356: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:356: the top level
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... ./build-aux/config.guess: unable to guess system type
+
+This script (version 2016-05-15), has failed to recognize the
+operating system you are using. If your script is old, overwrite
+config.guess and config.sub with the latest versions from:
+
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess
+and
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub
+
+If ./build-aux/config.guess has already been updated, send the following data and any
+information you think might be pertinent to config-patches@gnu.org to
+provide the necessary information to handle your system.
+
+config.guess timestamp = 2016-05-15
+
+uname -m = riscv64
+uname -r = 5.10.0-15-amd64
+uname -s = Linux
+uname -v = #1 SMP Debian 5.10.120-1 (2022-06-09)
+
+/usr/bin/uname -p = 
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = 
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 5.10.0-15-amd64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Debian 5.10.120-1 (2022-06-09)
+configure: error: cannot guess build type; you must specify one
+make[1]: *** [/root/libreoffice-7.3.4.2/external/libassuan/ExternalProject_libassuan.mk:46: /root/libreoffice-7.3.4.2/workdir/ExternalProject/libassuan/build] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:288: build] Error 2
