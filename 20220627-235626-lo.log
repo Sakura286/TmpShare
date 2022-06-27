@@ -1,0 +1,399 @@
+# libassuan大量报错
+
+make -j 16  -rs -f /root/libreoffice/Makefile.gbuild build  
+[DEP] LNK:Library/libucbhelper.so.d
+[DEP] LNK:Library/libjvmfwklo.so.d
+[DEP] LNK:Library/libuno_cppuhelpergcc3.so.3.d
+[DEP] LNK:Library/libuno_cppuhelpergcc3.so.3.d
+[LNK] Library/libuno_cppuhelpergcc3.so.3
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/otherjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjavaplugin.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/sunjre.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/util.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorbase.cxx
+[CXX] jvmfwk/plugins/sunmajor/pluginlib/vendorlist.cxx
+[CXX] jvmfwk/source/framework.cxx
+[CXX] jvmfwk/source/libxmlutil.cxx
+[CXX] jvmaccess/source/classpath.cxx
+[CXX] jvmaccess/source/unovirtualmachine.cxx
+[CXX] jvmaccess/source/virtualmachine.cxx
+[CUS] unoil/javamaker
+[CXX] binaryurp/source/binaryany.cxx
+[CXX] binaryurp/source/bridge.cxx
+[CXX] binaryurp/source/bridgefactory.cxx
+[CXX] binaryurp/source/currentcontext.cxx
+[CXX] binaryurp/source/incomingrequest.cxx
+[CXX] binaryurp/source/lessoperators.cxx
+[CXX] binaryurp/source/marshal.cxx
+[CXX] binaryurp/source/outgoingrequests.cxx
+[CXX] binaryurp/source/proxy.cxx
+[CXX] binaryurp/source/reader.cxx
+[CXX] binaryurp/source/unmarshal.cxx
+[CXX] binaryurp/source/writer.cxx
+[CXX] cpputools/source/unoexe/unoexe.cxx
+[PRJ] jfreereport_flow_engine
+[MOD] libodfgen
+[UPK] e5be03eda13ef68aabab6e42aa67715e-redland-1.0.17.tar.gz
+[BIN] i18nlangtag
+[CXX] io/source/acceptor/acc_pipe.cxx
+[CXX] io/source/acceptor/acc_socket.cxx
+[CXX] io/source/acceptor/acceptor.cxx
+[CXX] io/source/connector/connector.cxx
+[CXX] io/source/connector/ctr_pipe.cxx
+[CXX] io/source/connector/ctr_socket.cxx
+[CXX] io/source/stm/odata.cxx
+[CXX] io/source/stm/omark.cxx
+[CXX] io/source/stm/opipe.cxx
+[CXX] io/source/stm/opump.cxx
+[CXX] io/source/stm/streamhelper.cxx
+[CXX] io/source/TextInputStream/TextInputStream.cxx
+[CXX] io/source/TextOutputStream/TextOutputStream.cxx
+[CXX] remotebridges/source/unourl_resolver/unourl_resolver.cxx
+[CXX] stoc/source/defaultregistry/defaultregistry.cxx
+[CXX] stoc/source/implementationregistration/implreg.cxx
+[CXX] stoc/source/implementationregistration/mergekeys.cxx
+[CXX] stoc/source/loader/dllcomponentloader.cxx
+[CXX] stoc/source/security/access_controller.cxx
+[CXX] stoc/source/security/file_policy.cxx
+[CXX] stoc/source/security/permissions.cxx
+[CXX] stoc/source/servicemanager/servicemanager.cxx
+[CXX] stoc/source/simpleregistry/simpleregistry.cxx
+[CXX] stoc/source/inspect/introspection.cxx
+[CXX] stoc/source/invocation_adapterfactory/iafactory.cxx
+[CXX] stoc/source/invocation/invocation.cxx
+[CXX] stoc/source/namingservice/namingservice.cxx
+[CXX] stoc/source/proxy_factory/proxyfac.cxx
+[CXX] stoc/source/corereflection/crarray.cxx
+[CXX] stoc/source/corereflection/crbase.cxx
+[CXX] stoc/source/corereflection/crcomp.cxx
+[CXX] stoc/source/corereflection/crefl.cxx
+[CXX] stoc/source/corereflection/crenum.cxx
+[CXX] stoc/source/corereflection/criface.cxx
+[CXX] stoc/source/typeconv/convert.cxx
+[CXX] stoc/source/uriproc/ExternalUriReferenceTranslator.cxx
+[CXX] stoc/source/uriproc/UriReference.cxx
+[CXX] stoc/source/uriproc/UriReferenceFactory.cxx
+[CXX] stoc/source/uriproc/UriSchemeParser_vndDOTsunDOTstarDOTexpand.cxx
+[CXX] stoc/source/uriproc/UriSchemeParser_vndDOTsunDOTstarDOTscript.cxx
+[CXX] stoc/source/uriproc/VndSunStarPkgUrlReferenceFactory.cxx
+configure.ac:105: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.ac:105: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.ac:105: the top level
+configure.ac:267: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:267: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+m4/glib-2.0.m4:8: AM_PATH_GLIB_2_0 is expanded from...
+configure.ac:267: the top level
+configure.ac:267: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:267: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+m4/glib-2.0.m4:8: AM_PATH_GLIB_2_0 is expanded from...
+configure.ac:267: the top level
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... riscv64-unknown-linux-gnu
+checking host system type... riscv64-unknown-linux-gnu
+checking whether make supports nested variables... (cached) yes
+checking whether make supports the include directive... yes (GNU style)
+checking for riscv64-unknown-linux-gnu-gcc... /usr/bin/ccache gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether /usr/bin/ccache gcc accepts -g... yes
+checking for /usr/bin/ccache gcc option to enable C11 features... none needed
+checking whether /usr/bin/ccache gcc understands -c and -o together... yes
+checking dependency style of /usr/bin/ccache gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for locale.h... yes
+checking for sys/select.h... yes
+checking for sys/uio.h... yes
+checking for argp.h... yes
+checking for sys/time.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for riscv64-unknown-linux-gnu-gcc... (cached) /usr/bin/ccache gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether /usr/bin/ccache gcc accepts -g... (cached) yes
+checking for /usr/bin/ccache gcc option to enable C11 features... (cached) none needed
+checking whether /usr/bin/ccache gcc understands -c and -o together... (cached) yes
+checking dependency style of /usr/bin/ccache gcc... (cached) gcc3
+checking how to run the C preprocessor... /usr/bin/ccache gcc -E
+checking whether the compiler supports GNU C++... yes
+checking whether /usr/bin/ccache g++ accepts -g... yes
+checking for /usr/bin/ccache g++ option to enable C++11 features... none needed
+checking dependency style of /usr/bin/ccache g++... gcc3
+checking for gitlog-to-changelog... no
+checking for cc for build... /usr/bin/ccache gcc
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by /usr/bin/ccache gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... gcc-nm
+checking the name lister (gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert riscv64-unknown-linux-gnu file names to riscv64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert riscv64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for riscv64-unknown-linux-gnu-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for riscv64-unknown-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for riscv64-unknown-linux-gnu-ar... gcc-ar
+checking for archiver @FILE support... @
+checking for riscv64-unknown-linux-gnu-strip... strip
+checking for riscv64-unknown-linux-gnu-ranlib... gcc-ranlib
+checking command to parse gcc-nm output from /usr/bin/ccache gcc object... ok
+checking for sysroot... no
+checking for riscv64-unknown-linux-gnu-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /usr/bin/ccache gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/bin/ccache gcc option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/ccache gcc PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/ccache gcc static flag -static works... yes
+checking if /usr/bin/ccache gcc supports -c -o file.o... yes
+checking if /usr/bin/ccache gcc supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/ccache gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... /usr/bin/ccache g++ -E
+checking for ld used by /usr/bin/ccache g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the /usr/bin/ccache g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for /usr/bin/ccache g++ option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/ccache g++ PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/ccache g++ static flag -static works... yes
+checking if /usr/bin/ccache g++ supports -c -o file.o... yes
+checking if /usr/bin/ccache g++ supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/ccache g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for riscv64-unknown-linux-gnu-windres... no
+checking for windres... no
+checking whether /usr/bin/ccache g++ supports C++11 features by default... yes
+checking for inline... inline
+checking size of unsigned int... 4
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for off_t... yes
+checking for uintptr_t... yes
+checking for /usr/bin/ccache gcc options needed to detect all undeclared functions... none needed
+checking whether ttyname_r is declared... yes
+checking for unistd.h... (cached) yes
+checking for ttyname_r... yes
+checking whether ttyname_r is compatible with its POSIX signature... yes
+checking whether ttyname_r works with small buffers... yes
+checking if gcc supports -Wno-missing-field-initializers... yes
+checking for __thread... yes
+configure: checking for libraries
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking for getenv_r... no
+checking for timegm... yes
+checking for setlocale... yes
+checking for getgid... yes
+checking for getegid... yes
+checking for closefrom... no
+checking for stpcpy... yes
+checking for setenv... yes
+checking for struct cmsghdr.cmsg_len... yes
+checking for error_t... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/gpg/Makefile
+config.status: creating tests/gpgsm/Makefile
+config.status: creating tests/opassuan/Makefile
+config.status: creating tests/json/Makefile
+config.status: creating doc/Makefile
+config.status: creating src/versioninfo.rc
+config.status: creating src/gpgme.pc
+config.status: creating src/gpgme-glib.pc
+config.status: creating src/gpgme.h
+config.status: creating src/gpgme-config
+config.status: creating lang/cpp/Makefile
+config.status: creating lang/cpp/src/Makefile
+config.status: creating lang/cpp/tests/Makefile
+config.status: creating lang/cpp/src/GpgmeppConfig-w32.cmake.in
+config.status: creating lang/cpp/src/GpgmeppConfig.cmake.in
+config.status: creating lang/cpp/src/GpgmeppConfigVersion.cmake
+config.status: creating lang/cpp/src/gpgmepp_version.h
+config.status: creating lang/qt/Makefile
+config.status: creating lang/qt/src/Makefile
+config.status: creating lang/qt/src/QGpgmeConfig-w32.cmake.in
+config.status: creating lang/qt/src/QGpgmeConfig.cmake.in
+config.status: creating lang/qt/src/QGpgmeConfigVersion.cmake
+config.status: creating lang/qt/tests/Makefile
+config.status: creating lang/qt/src/qgpgme_version.h
+config.status: creating lang/Makefile
+config.status: creating lang/cl/Makefile
+config.status: creating lang/cl/gpgme.asd
+config.status: creating lang/js/Makefile
+config.status: creating lang/js/src/Makefile
+config.status: creating lang/js/BrowserTestExtension/Makefile
+config.status: creating lang/js/DemoExtension/Makefile
+config.status: creating lang/qt/doc/Makefile
+config.status: creating lang/python/Makefile
+config.status: creating lang/python/version.py
+config.status: creating lang/python/tests/Makefile
+config.status: creating lang/python/src/Makefile
+config.status: creating lang/python/examples/Makefile
+config.status: creating lang/python/doc/Makefile
+config.status: creating lang/python/setup.py
+config.status: creating conf/config.h
+config.status: conf/config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+        GPGME v1.16.0-unknown has been configured as follows:
+
+        Revision:          0000000  (0)
+        Platform:          riscv64-unknown-linux-gnu
+
+        UI Server:         yes
+        FD Passing:        yes
+
+        Language bindings: cpp
+
+Making all in src
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT conversion.lo -MD -MP -MF .deps/conversion.Tpo -c conversion.c  -fPIC -DPIC -o .libs/conversion.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT b64dec.lo -MD -MP -MF .deps/b64dec.Tpo -c b64dec.c  -fPIC -DPIC -o .libs/b64dec.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT get-env.lo -MD -MP -MF .deps/get-env.Tpo -c get-env.c  -fPIC -DPIC -o .libs/get-env.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data.lo -MD -MP -MF .deps/data.Tpo -c data.c  -fPIC -DPIC -o .libs/data.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-fd.lo -MD -MP -MF .deps/data-fd.Tpo -c data-fd.c  -fPIC -DPIC -o .libs/data-fd.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-stream.lo -MD -MP -MF .deps/data-stream.Tpo -c data-stream.c  -fPIC -DPIC -o .libs/data-stream.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-mem.lo -MD -MP -MF .deps/data-mem.Tpo -c data-mem.c  -fPIC -DPIC -o .libs/data-mem.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-user.lo -MD -MP -MF .deps/data-user.Tpo -c data-user.c  -fPIC -DPIC -o .libs/data-user.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-estream.lo -MD -MP -MF .deps/data-estream.Tpo -c data-estream.c  -fPIC -DPIC -o .libs/data-estream.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-compat.lo -MD -MP -MF .deps/data-compat.Tpo -c data-compat.c  -fPIC -DPIC -o .libs/data-compat.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-identify.lo -MD -MP -MF .deps/data-identify.Tpo -c data-identify.c  -fPIC -DPIC -o .libs/data-identify.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT signers.lo -MD -MP -MF .deps/signers.Tpo -c signers.c  -fPIC -DPIC -o .libs/signers.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sig-notation.lo -MD -MP -MF .deps/sig-notation.Tpo -c sig-notation.c  -fPIC -DPIC -o .libs/sig-notation.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait.lo -MD -MP -MF .deps/wait.Tpo -c wait.c  -fPIC -DPIC -o .libs/wait.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-global.lo -MD -MP -MF .deps/wait-global.Tpo -c wait-global.c  -fPIC -DPIC -o .libs/wait-global.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-private.lo -MD -MP -MF .deps/wait-private.Tpo -c wait-private.c  -fPIC -DPIC -o .libs/wait-private.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-user.lo -MD -MP -MF .deps/wait-user.Tpo -c wait-user.c  -fPIC -DPIC -o .libs/wait-user.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT op-support.lo -MD -MP -MF .deps/op-support.Tpo -c op-support.c  -fPIC -DPIC -o .libs/op-support.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt.lo -MD -MP -MF .deps/encrypt.Tpo -c encrypt.c  -fPIC -DPIC -o .libs/encrypt.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt-sign.lo -MD -MP -MF .deps/encrypt-sign.Tpo -c encrypt-sign.c  -fPIC -DPIC -o .libs/encrypt-sign.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt.lo -MD -MP -MF .deps/decrypt.Tpo -c decrypt.c  -fPIC -DPIC -o .libs/decrypt.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt-verify.lo -MD -MP -MF .deps/decrypt-verify.Tpo -c decrypt-verify.c  -fPIC -DPIC -o .libs/decrypt-verify.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT verify.lo -MD -MP -MF .deps/verify.Tpo -c verify.c  -fPIC -DPIC -o .libs/verify.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sign.lo -MD -MP -MF .deps/sign.Tpo -c sign.c  -fPIC -DPIC -o .libs/sign.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passphrase.lo -MD -MP -MF .deps/passphrase.Tpo -c passphrase.c  -fPIC -DPIC -o .libs/passphrase.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT progress.lo -MD -MP -MF .deps/progress.Tpo -c progress.c  -fPIC -DPIC -o .libs/progress.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT key.lo -MD -MP -MF .deps/key.Tpo -c key.c  -fPIC -DPIC -o .libs/key.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keylist.lo -MD -MP -MF .deps/keylist.Tpo -c keylist.c  -fPIC -DPIC -o .libs/keylist.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keysign.lo -MD -MP -MF .deps/keysign.Tpo -c keysign.c  -fPIC -DPIC -o .libs/keysign.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT trust-item.lo -MD -MP -MF .deps/trust-item.Tpo -c trust-item.c  -fPIC -DPIC -o .libs/trust-item.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT trustlist.lo -MD -MP -MF .deps/trustlist.Tpo -c trustlist.c  -fPIC -DPIC -o .libs/trustlist.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT tofupolicy.lo -MD -MP -MF .deps/tofupolicy.Tpo -c tofupolicy.c  -fPIC -DPIC -o .libs/tofupolicy.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT revsig.lo -MD -MP -MF .deps/revsig.Tpo -c revsig.c  -fPIC -DPIC -o .libs/revsig.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT import.lo -MD -MP -MF .deps/import.Tpo -c import.c  -fPIC -DPIC -o .libs/import.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT export.lo -MD -MP -MF .deps/export.Tpo -c export.c  -fPIC -DPIC -o .libs/export.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT genkey.lo -MD -MP -MF .deps/genkey.Tpo -c genkey.c  -fPIC -DPIC -o .libs/genkey.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT delete.lo -MD -MP -MF .deps/delete.Tpo -c delete.c  -fPIC -DPIC -o .libs/delete.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT edit.lo -MD -MP -MF .deps/edit.Tpo -c edit.c  -fPIC -DPIC -o .libs/edit.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT getauditlog.lo -MD -MP -MF .deps/getauditlog.Tpo -c getauditlog.c  -fPIC -DPIC -o .libs/getauditlog.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT setexpire.lo -MD -MP -MF .deps/setexpire.Tpo -c setexpire.c  -fPIC -DPIC -o .libs/setexpire.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT opassuan.lo -MD -MP -MF .deps/opassuan.Tpo -c opassuan.c  -fPIC -DPIC -o .libs/opassuan.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passwd.lo -MD -MP -MF .deps/passwd.Tpo -c passwd.c  -fPIC -DPIC -o .libs/passwd.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT spawn.lo -MD -MP -MF .deps/spawn.Tpo -c spawn.c  -fPIC -DPIC -o .libs/spawn.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT assuan-support.lo -MD -MP -MF .deps/assuan-support.Tpo -c assuan-support.c  -fPIC -DPIC -o .libs/assuan-support.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine.lo -MD -MP -MF .deps/engine.Tpo -c engine.c  -fPIC -DPIC -o .libs/engine.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpg.lo -MD -MP -MF .deps/engine-gpg.Tpo -c engine-gpg.c  -fPIC -DPIC -o .libs/engine-gpg.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT status-table.lo -MD -MP -MF .deps/status-table.Tpo -c status-table.c  -fPIC -DPIC -o .libs/status-table.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgsm.lo -MD -MP -MF .deps/engine-gpgsm.Tpo -c engine-gpgsm.c  -fPIC -DPIC -o .libs/engine-gpgsm.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-assuan.lo -MD -MP -MF .deps/engine-assuan.Tpo -c engine-assuan.c  -fPIC -DPIC -o .libs/engine-assuan.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgconf.lo -MD -MP -MF .deps/engine-gpgconf.Tpo -c engine-gpgconf.c  -fPIC -DPIC -o .libs/engine-gpgconf.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-uiserver.lo -MD -MP -MF .deps/engine-uiserver.Tpo -c engine-uiserver.c  -fPIC -DPIC -o .libs/engine-uiserver.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-g13.lo -MD -MP -MF .deps/engine-g13.Tpo -c engine-g13.c  -fPIC -DPIC -o .libs/engine-g13.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-mount.lo -MD -MP -MF .deps/vfs-mount.Tpo -c vfs-mount.c  -fPIC -DPIC -o .libs/vfs-mount.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-create.lo -MD -MP -MF .deps/vfs-create.Tpo -c vfs-create.c  -fPIC -DPIC -o .libs/vfs-create.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-spawn.lo -MD -MP -MF .deps/engine-spawn.Tpo -c engine-spawn.c  -fPIC -DPIC -o .libs/engine-spawn.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgconf.lo -MD -MP -MF .deps/gpgconf.Tpo -c gpgconf.c  -fPIC -DPIC -o .libs/gpgconf.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT queryswdb.lo -MD -MP -MF .deps/queryswdb.Tpo -c queryswdb.c  -fPIC -DPIC -o .libs/queryswdb.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-util.lo -MD -MP -MF .deps/posix-util.Tpo -c posix-util.c  -fPIC -DPIC -o .libs/posix-util.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-io.lo -MD -MP -MF .deps/posix-io.Tpo -c posix-io.c  -fPIC -DPIC -o .libs/posix-io.o
+posix-io.c: In function 'get_max_fds':
+posix-io.c:392:29: warning: cast increases required alignment of target type [-Wcast-align]
+  392 |                 dir_entry = (struct linux_dirent64 *) (dir_buf + pos);
+      |                             ^
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT dirinfo.lo -MD -MP -MF .deps/dirinfo.Tpo -c dirinfo.c  -fPIC -DPIC -o .libs/dirinfo.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c debug.c  -fPIC -DPIC -o .libs/debug.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgme.lo -MD -MP -MF .deps/gpgme.Tpo -c gpgme.c  -fPIC -DPIC -o .libs/gpgme.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c  -fPIC -DPIC -o .libs/version.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -fPIC -DPIC -o .libs/error.o
+libtool: compile:  /usr/bin/ccache gcc -DHAVE_CONFIG_H -I. -I../conf -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT ath.lo -MD -MP -MF .deps/ath.Tpo -c ath.c  -fPIC -DPIC -o .libs/ath.o
+libtool: link: rm -fr  .libs/libgpgme.la .libs/libgpgme.lai .libs/libgpgme.so .libs/libgpgme.so.11 .libs/libgpgme.so.11.25.0
+libtool: link: /usr/bin/ccache gcc -shared  -fPIC -DPIC  .libs/conversion.o .libs/b64dec.o .libs/get-env.o .libs/parsetlv.o .libs/mbox-util.o .libs/data.o .libs/data-fd.o .libs/data-stream.o .libs/data-mem.o .libs/data-user.o .libs/data-estream.o .libs/data-compat.o .libs/data-identify.o .libs/signers.o .libs/sig-notation.o .libs/wait.o .libs/wait-global.o .libs/wait-private.o .libs/wait-user.o .libs/op-support.o .libs/encrypt.o .libs/encrypt-sign.o .libs/decrypt.o .libs/decrypt-verify.o .libs/verify.o .libs/sign.o .libs/passphrase.o .libs/progress.o .libs/key.o .libs/keylist.o .libs/keysign.o .libs/trust-item.o .libs/trustlist.o .libs/tofupolicy.o .libs/revsig.o .libs/import.o .libs/export.o .libs/genkey.o .libs/delete.o .libs/edit.o .libs/getauditlog.o .libs/setexpire.o .libs/opassuan.o .libs/passwd.o .libs/spawn.o .libs/assuan-support.o .libs/engine.o .libs/engine-gpg.o .libs/status-table.o .libs/engine-gpgsm.o .libs/engine-assuan.o .libs/engine-gpgconf.o .libs/engine-uiserver.o .libs/engine-g13.o .libs/vfs-mount.o .libs/vfs-create.o .libs/engine-spawn.o .libs/gpgconf.o .libs/queryswdb.o .libs/posix-util.o .libs/posix-io.o .libs/dirinfo.o .libs/debug.o .libs/gpgme.o .libs/version.o .libs/error.o .libs/ath.o   -L/root/libreoffice/workdir/UnpackedTarball/libassuan/src/.libs /root/libreoffice/workdir/UnpackedTarball/libassuan/src/.libs/libassuan.so -L/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs /root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs/libgpg-error.so  -O0 -Wl,--version-script=./libgpgme.vers -Wl,-z -Wl,origin -Wl,-rpath -Wl,\$ORIGIN   -Wl,-soname -Wl,libgpgme.so.11 -o .libs/libgpgme.so.11.25.0
+libtool: link: (cd ".libs" && rm -f "libgpgme.so.11" && ln -s "libgpgme.so.11.25.0" "libgpgme.so.11")
+libtool: link: (cd ".libs" && rm -f "libgpgme.so" && ln -s "libgpgme.so.11.25.0" "libgpgme.so")
+libtool: link: ( cd ".libs" && rm -f "libgpgme.la" && ln -s "../libgpgme.la" "libgpgme.la" )
+libtool: link: /usr/bin/ccache gcc -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -Wl,-z -Wl,origin -Wl,-rpath -Wl,\$ORIGIN -o .libs/gpgme-tool gpgme-tool.o argparse.o  ./.libs/libgpgme.so -L/root/libreoffice/workdir/UnpackedTarball/libassuan/src/.libs /root/libreoffice/workdir/UnpackedTarball/libassuan/src/.libs/libassuan.so -L/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs /root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs/libgpg-error.so
+libtool: link: /usr/bin/ccache gcc -I/root/libreoffice/workdir/UnpackedTarball/libassuan/src -I/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src -O0 -fstrict-aliasing -fstrict-overflow -ggdb2 -gsplit-dwarf -gdwarf-4 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -Wl,-z -Wl,origin -Wl,-rpath -Wl,\$ORIGIN -o .libs/gpgme-json gpgme-json.o cJSON.o  -lm ./.libs/libgpgme.so -L/root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs /root/libreoffice/workdir/UnpackedTarball/libgpg-error/src/.libs/libgpg-error.so
+/usr/bin/ld: warning: libassuan.so.0, needed by ./.libs/libgpgme.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_send_data@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_set_flag@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_ctx_set_system_hooks@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_release@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_transact@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_write_line@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_read_line@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_socket_connect@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `__assuan_socketpair@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_pending_line@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_sendfd@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_pipe_connect@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_get_active_fds@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `__assuan_usleep@LIBASSUAN_1.0'
+/usr/bin/ld: ./.libs/libgpgme.so: undefined reference to `assuan_new_ext@LIBASSUAN_1.0'
+collect2: error: ld returned 1 exit status
+make[3]: *** [Makefile:844: gpgme-json] Error 1
+make[2]: *** [Makefile:536: all-recursive] Error 1
+make[1]: *** [/root/libreoffice/external/gpgmepp/ExternalProject_gpgmepp.mk:48: /root/libreoffice/workdir/ExternalProject/gpgmepp/build] Error 1
+make[1]: *** Waiting for unfinished jobs....
+^Cmake[1]: *** [/root/libreoffice/external/libmwaw/ExternalProject_libmwaw.mk:24: /root/libreoffice/workdir/ExternalProject/libmwaw/build] Interrupt
+make[1]: *** [/root/libreoffice/external/libvisio/ExternalProject_libvisio.mk:27: /root/libreoffice/workdir/ExternalProject/libvisio/build] Interrupt
+make[1]: *** [/root/libreoffice/external/libstaroffice/ExternalProject_libstaroffice.mk:24: /root/libreoffice/workdir/ExternalProject/libstaroffice/build] Interrupt
+make[1]: *** [/root/libreoffice/external/libetonyek/ExternalProject_libetonyek.mk:30: /root/libreoffice/workdir/ExternalProject/libetonyek/build] Interrupt
+make[1]: *** [/root/libreoffice/external/libwpd/ExternalProject_libwpd.mk:25: /root/libreoffice/workdir/ExternalProject/libwpd/build] Interrupt
+make[1]: *** [/root/libreoffice/external/libwps/ExternalProject_libwps.mk:35: /root/libreoffice/workdir/ExternalProject/libwps/build] Interrupt
+make[1]: *** [/root/libreoffice/external/coinmp/ExternalProject_coinmp.mk:31: /root/libreoffice/workdir/ExternalProject/coinmp/build] Interrupt
+make: *** [Makefile:288: build] Interrupt

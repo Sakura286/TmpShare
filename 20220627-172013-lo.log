@@ -1,0 +1,222 @@
+Some pdfium error
+
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_annot.h:17,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annothandlermgr.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annothandlermgr.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annothandlermgr.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_annot.h:17,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annot.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annot.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annot.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_annot.h:17,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annot.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annotiteration.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annotiteration.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_annotiteration.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_pageobjectholder.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdftext/cpdf_textpage.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_searchex.cpp:9:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_searchex.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_dest.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_action.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_aaction.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannot.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannot.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannot.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_pageobjectholder.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_page.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_progressive.cpp:12:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_progressive.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_ext.cpp:9:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_ext.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/observed_ptr.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/ipdfsdk_annothandler.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannothandler.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannothandler.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_baannothandler.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/observed_ptr.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/ipdfsdk_annothandler.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widgethandler.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widgethandler.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widgethandler.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_dest.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_action.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfdoc/cpdf_aaction.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widget.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widget.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_widget.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_pageobjectholder.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_page.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_pageview.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_pageview.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_pageview.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_pageobjectholder.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_page.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_flatten.cpp:20:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_flatten.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/font/cpdf_font.h:16,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_docpagedata.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_dataavail.cpp:12:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_dataavail.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_object.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/parser/cpdf_dictionary.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_pageobjectholder.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_page.h:13,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/fpdf_structtree.cpp:9:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/fpdf_structtree.o] Error 1
+In file included from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/third_party/base/check.h:10,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/retain_ptr.h:15,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/bytestring.h:20,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fxcrt/fx_string.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/core/fpdfapi/page/cpdf_occontext.h:12,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_formfillenvironment.h:14,
+                 from /root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_formfillenvironment.cpp:7:
+/root/libreoffice-7.3.4.2/workdir/UnpackedTarball/pdfium/build/build_config.h:122:2: error: #error Please add support for your architecture in build/build_config.h
+  122 | #error Please add support for your architecture in build/build_config.h
+      |  ^~~~~
+make[1]: *** [/root/libreoffice-7.3.4.2/solenv/gbuild/LinkTarget.mk:400: /root/libreoffice-7.3.4.2/workdir/GenCxxObject/UnpackedTarball/pdfium/fpdfsdk/cpdfsdk_formfillenvironment.o] Error 1
+configure.ac:356: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:356: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:356: the top level
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... ./build-aux/config.guess: unable to guess system type
+
+This script (version 2016-05-15), has failed to recognize the
+operating system you are using. If your script is old, overwrite
+config.guess and config.sub with the latest versions from:
+
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess
+and
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub
+
+If ./build-aux/config.guess has already been updated, send the following data and any
+information you think might be pertinent to config-patches@gnu.org to
+provide the necessary information to handle your system.
+
+config.guess timestamp = 2016-05-15
+
+uname -m = riscv64
+uname -r = 5.10.0-15-amd64
+uname -s = Linux
+uname -v = #1 SMP Debian 5.10.120-1 (2022-06-09)
+
+/usr/bin/uname -p = 
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = 
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 5.10.0-15-amd64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Debian 5.10.120-1 (2022-06-09)
+configure: error: cannot guess build type; you must specify one
+make[1]: *** [/root/libreoffice-7.3.4.2/external/libassuan/ExternalProject_libassuan.mk:46: /root/libreoffice-7.3.4.2/workdir/ExternalProject/libassuan/build] Error 1
+make: *** [Makefile:288: build] Error 2
