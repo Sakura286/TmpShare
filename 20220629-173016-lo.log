@@ -1,0 +1,26 @@
+[CUT] cppuhelper_qa_misc
+Illegal instruction
+[_RUN_____] (anonymous namespace)::Test::testCatchThrow
+
+No core file identified in directory /home/infinity/libreoffice/workdir/CppunitTest/cppuhelper_qa_misc.test.core
+To show backtraces for crashes during test execution,
+enable core files with:
+
+   ulimit -c unlimited
+
+
+Error: a unit test failed, please do one of:
+
+make CppunitTest_cppuhelper_qa_misc CPPUNITTRACE="gdb --args"
+    # for interactive debugging on Linux
+make CppunitTest_cppuhelper_qa_misc VALGRIND=memcheck
+    # for memory checking
+make CppunitTest_cppuhelper_qa_misc DEBUGCPPUNIT=TRUE
+    # for exception catching
+
+You can limit the execution to just one particular test by:
+
+make CPPUNIT_TEST_NAME="testXYZ" ...above mentioned params...
+
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/CppunitTest.mk:121: /home/infinity/libreoffice/workdir/CppunitTest/cppuhelper_qa_misc.test] Error 1
+make: *** [Makefile:288: build] Error 2

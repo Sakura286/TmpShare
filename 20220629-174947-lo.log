@@ -1,0 +1,148 @@
+[CUT] emfio_emf
+Illegal instruction (core dumped)
+[_RUN_____] (anonymous namespace)::Test::testPolyPolygon
+(anonymous namespace)::Test::testPolyPolygon finished in: 307ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawImagePointsTypeBitmap
+(anonymous namespace)::Test::TestDrawImagePointsTypeBitmap finished in: 60ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawString
+(anonymous namespace)::Test::TestDrawString finished in: 5ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawStringAlign
+(anonymous namespace)::Test::TestDrawStringAlign finished in: 9ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawStringTransparent
+(anonymous namespace)::Test::TestDrawStringTransparent finished in: 4ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawStringWithBrush
+(anonymous namespace)::Test::TestDrawStringWithBrush finished in: 5ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawLine
+(anonymous namespace)::Test::TestDrawLine finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawLineWithCaps
+(anonymous namespace)::Test::TestDrawLineWithCaps finished in: 9ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawLineWithDash
+(anonymous namespace)::Test::TestDrawLineWithDash finished in: 7ms
+[_RUN_____] (anonymous namespace)::Test::TestLinearGradient
+(anonymous namespace)::Test::TestLinearGradient finished in: 5ms
+[_RUN_____] (anonymous namespace)::Test::TestTextMapMode
+(anonymous namespace)::Test::TestTextMapMode finished in: 48ms
+[_RUN_____] (anonymous namespace)::Test::TestEnglishMapMode
+(anonymous namespace)::Test::TestEnglishMapMode finished in: 8ms
+[_RUN_____] (anonymous namespace)::Test::TestRectangleWithModifyWorldTransform
+(anonymous namespace)::Test::TestRectangleWithModifyWorldTransform finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestArcStartPointEqualEndPoint
+(anonymous namespace)::Test::TestArcStartPointEqualEndPoint finished in: 5ms
+[_RUN_____] (anonymous namespace)::Test::TestArcInsideWronglyDefinedRectangle
+(anonymous namespace)::Test::TestArcInsideWronglyDefinedRectangle finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestChordWithModifyWorldTransform
+(anonymous namespace)::Test::TestChordWithModifyWorldTransform finished in: 1ms
+[_RUN_____] (anonymous namespace)::Test::TestEllipseWithSelectClipPath
+(anonymous namespace)::Test::TestEllipseWithSelectClipPath finished in: 4ms
+[_RUN_____] (anonymous namespace)::Test::TestEllipseXformIntersectClipRect
+(anonymous namespace)::Test::TestEllipseXformIntersectClipRect finished in: 5ms
+[_RUN_____] (anonymous namespace)::Test::TestSetArcDirection
+(anonymous namespace)::Test::TestSetArcDirection finished in: 3ms
+[_RUN_____] (anonymous namespace)::Test::TestDrawPolyLine16WithClip
+(anonymous namespace)::Test::TestDrawPolyLine16WithClip finished in: 6ms
+[_RUN_____] (anonymous namespace)::Test::TestFillRegion
+(anonymous namespace)::Test::TestFillRegion finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestEmfPlusGetDC
+(anonymous namespace)::Test::TestEmfPlusGetDC finished in: 18ms
+[_RUN_____] (anonymous namespace)::Test::TestEmfPlusSave
+(anonymous namespace)::Test::TestEmfPlusSave finished in: 4ms
+[_RUN_____] (anonymous namespace)::Test::TestEmfPlusDrawPathWithMiterLimit
+(anonymous namespace)::Test::TestEmfPlusDrawPathWithMiterLimit finished in: 4ms
+[_RUN_____] (anonymous namespace)::Test::TestEmfPlusFillClosedCurve
+(anonymous namespace)::Test::TestEmfPlusFillClosedCurve finished in: 3ms
+[_RUN_____] (anonymous namespace)::Test::TestExtTextOutOpaqueAndClipTransform
+(anonymous namespace)::Test::TestExtTextOutOpaqueAndClipTransform finished in: 9ms
+[_RUN_____] (anonymous namespace)::Test::TestBitBltStretchBltWMF
+(anonymous namespace)::Test::TestBitBltStretchBltWMF finished in: 7ms
+[_RUN_____] (anonymous namespace)::Test::TestExtTextOutOpaqueAndClipWMF
+(anonymous namespace)::Test::TestExtTextOutOpaqueAndClipWMF finished in: 8ms
+[_RUN_____] (anonymous namespace)::Test::TestPaletteWMF
+(anonymous namespace)::Test::TestPaletteWMF finished in: 3ms
+[_RUN_____] (anonymous namespace)::Test::TestRestoreDCWMF
+(anonymous namespace)::Test::TestRestoreDCWMF finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestRoundrectWMF
+(anonymous namespace)::Test::TestRoundrectWMF finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestStretchDIBWMF
+(anonymous namespace)::Test::TestStretchDIBWMF finished in: 3ms
+[_RUN_____] (anonymous namespace)::Test::TestMoveToLineToWMF
+(anonymous namespace)::Test::TestMoveToLineToWMF finished in: 1ms
+[_RUN_____] (anonymous namespace)::Test::TestPolylinetoCloseStroke
+(anonymous namespace)::Test::TestPolylinetoCloseStroke finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestPolyLineWidth
+(anonymous namespace)::Test::TestPolyLineWidth finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestRestoreDC
+(anonymous namespace)::Test::TestRestoreDC finished in: 2ms
+[_RUN_____] (anonymous namespace)::Test::TestRoundRect
+(anonymous namespace)::Test::TestRoundRect finished in: 4ms
+[_RUN_____] (anonymous namespace)::Test::TestCreatePen
+(anonymous namespace)::Test::TestCreatePen finished in: 84ms
+[_RUN_____] (anonymous namespace)::Test::TestPdfInEmf
+
+It looks like /home/infinity/libreoffice/workdir/LinkTarget/Executable/cppunittester generated /home/infinity/libreoffice/workdir/CppunitTest/emfio_emf.test.core/core
+Backtraces:
+<frozen importlib._bootstrap>:914: ImportWarning: GdbRemoveReadlineFinder.find_spec() not found; falling back to find_module()
+
+warning: core file may not match specified executable file.
+
+warning: Couldn't find general-purpose registers in core file.
+
+warning: Unexpected size of section `.reg2' in core file.
+Core was generated by `/usr/libexec/qemu-binfmt/riscv64-binfmt-P /home/infinity/libreoffice/workdir/Li'.
+
+warning: Couldn't find general-purpose registers in core file.
+
+warning: Unexpected size of section `.reg2' in core file.
+#0  <unavailable> in ?? ()
+ra             <unavailable>
+sp             <unavailable>
+gp             <unavailable>
+tp             <unavailable>
+t0             <unavailable>
+t1             <unavailable>
+t2             <unavailable>
+fp             <unavailable>
+s1             <unavailable>
+a0             <unavailable>
+a1             <unavailable>
+a2             <unavailable>
+a3             <unavailable>
+a4             <unavailable>
+a5             <unavailable>
+a6             <unavailable>
+a7             <unavailable>
+s2             <unavailable>
+s3             <unavailable>
+s4             <unavailable>
+s5             <unavailable>
+s6             <unavailable>
+s7             <unavailable>
+s8             <unavailable>
+s9             <unavailable>
+s10            <unavailable>
+s11            <unavailable>
+t3             <unavailable>
+t4             <unavailable>
+t5             <unavailable>
+t6             <unavailable>
+pc             <unavailable>
+
+Thread 1 (process 1):
+#0  <unavailable> in ?? ()
+PC unavailable, cannot determine locals.
+
+
+Error: a unit test failed, please do one of:
+
+make CppunitTest_emfio_emf CPPUNITTRACE="gdb --args"
+    # for interactive debugging on Linux
+make CppunitTest_emfio_emf VALGRIND=memcheck
+    # for memory checking
+make CppunitTest_emfio_emf DEBUGCPPUNIT=TRUE
+    # for exception catching
+
+You can limit the execution to just one particular test by:
+
+make CPPUNIT_TEST_NAME="testXYZ" ...above mentioned params...
+
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/CppunitTest.mk:121: /home/infinity/libreoffice/workdir/CppunitTest/emfio_emf.test] Error 1
+make: *** [Makefile:288: build] Error 2

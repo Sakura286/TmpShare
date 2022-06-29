@@ -1,0 +1,158 @@
+[CUT] basic_macros
+Illegal instruction
+[_RUN_____] (anonymous namespace)::Coverage::Coverage_Iterator
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_compatibilitymode_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_compatibilitymode_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_oct_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_oct_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mid_StartOutOfBounds_2args.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mid_StartOutOfBounds_2args.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_string_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_string_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_datedateadddatediff_methods.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_datedateadddatediff_methods.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_csng_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_csng_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/string_left_01.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/string_left_01.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_empty_parameter.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_empty_parameter.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_getprocessservicemanager_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_getprocessservicemanager_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_optional_paramters_compatible.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_optional_paramters_compatible.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_instr_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_instr_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_tdf147089_idiv.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_tdf147089_idiv.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_rgb_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_rgb_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_freelibrary_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_freelibrary_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_chr_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_chr_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_method_name_variable.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_method_name_variable.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_equalunoobjects_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_equalunoobjects_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_tan_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_tan_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_sgn_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_sgn_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_freefile_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_freefile_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mid_firstletter_3args.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mid_firstletter_3args.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_getguitype_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_getguitype_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mod_operator.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_mod_operator.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/string_right_01.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/string_right_01.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_array_method.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_array_method.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_optional_paramters_basic.bas
+macro result for file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_optional_paramters_basic.bas
+macro returned:
+OK
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/cppunit/_test_asserts.bas
+loadSource opening macro file file:///home/infinity/libreoffice/basic/qa/basic_coverage/test_filedatetime_nonexistent.bas
+
+No core file identified in directory /home/infinity/libreoffice/workdir/CppunitTest/basic_macros.test.core
+To show backtraces for crashes during test execution,
+enable core files with:
+
+   ulimit -c unlimited
+
+
+Error: a unit test failed, please do one of:
+
+make CppunitTest_basic_macros CPPUNITTRACE="gdb --args"
+    # for interactive debugging on Linux
+make CppunitTest_basic_macros VALGRIND=memcheck
+    # for memory checking
+make CppunitTest_basic_macros DEBUGCPPUNIT=TRUE
+    # for exception catching
+
+You can limit the execution to just one particular test by:
+
+make CPPUNIT_TEST_NAME="testXYZ" ...above mentioned params...
+
+make[1]: *** [/home/infinity/libreoffice/solenv/gbuild/CppunitTest.mk:121: /home/infinity/libreoffice/workdir/CppunitTest/basic_macros.test] Error 1
+make: *** [Makefile:288: build] Error 2
